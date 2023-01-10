@@ -1,0 +1,48 @@
+:root {
+  --first-color: #e7562e;
+  --link-color: #509ee3;
+  --my-color: #fff;
+  --dark-color: #1f2937;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--dark-color);
+}
+a {
+  color: var(--link-color);
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-size: 2rem;
+  color: var(--first-color);
+}
+p {
+  color: var(--my-color);
+}
+
+i {
+  color: yellow;
+}
+ul {
+  color: #e7562e;
+}

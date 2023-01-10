@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hola en esta ocación te enseño a subir tu proyecto a github"
+    />
+    <link
+      rel="canonical"
+      href="https://javier-er.github.io/first-project/portfolio-cv"
+    />
+    <link
+      rel="favicon"
+      href="https://javier-er.github.io/first-project/portfolio-cv/assets/loguito-github.jpg"
+    />
+    <meta name="first-color" content="#e7562e" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" name="twitter:title" content="Tutorial Github" />
+    <meta
+      property="og:description"
+      name="twitter:description"
+      content="Hola En esta ocación te enseño a subir tu proyecto a github"
+    />
+    <meta
+      property="og:image"
+      name="twitter:image"
+      content="https://javier-er.github.io/first-project/portfolio-cv/assets/loguito-github.jpg"
+    />
+    <meta
+      property="og:url"
+      name="twitter:url"
+      content="https://javier-er.github.io/first-project/portfolio-cv"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Subiendo Un Proyecto</title>
+  </head>
+  <body>
+    <h1>Una Forma de Subir proyectos a GITHUB</h1>
+    <p>Supongamos que Aquí tienes todo los archivos que quieres subir</p>
+    <img src="assets/Captura-one.PNG" />
+    <p>
+      Nos dirigimos a nuestra cuenta github para crear un nuevo repositorio
+      <a
+        href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsettings%2Fprofile"
+        target="_blank"
+        rel="noopener"
+        >ClickAquí</a
+      >
+    </p>
+    <p>
+      Ahora debemos crear un repositorio, en este caso le pondremos como nombre
+      <i>first-project</i>
+    </p>
+    <img src="assets/Captura-2.PNG" />
+    <img src="assets/Captura-3.PNG" />
+    <p>
+      Posteriormente lo que debemos hacer es crear una carpeta, ya sea en el
+      escritorio o documentos
+      <b>Con el mísmo nombre que le pusiste a tu repositorio</b> en este caso:
+      <i>first-project</i> como atajo puedes arrastrar la url de la carpeta
+      hacia la terminal, despues del comando cd. En mi caso estoy usando
+      <i>gitbash</i>, puedes hacerlo igual en el
+      <i>shell Power, o simbolo del sistema en windows</i>
+      <img src="assets/Captura-4.PNG" />
+    </p>
+    <h2>Iniciando los comandos de <i>git</i></h2>
+    <ul>
+      <li><i>git int</i></li>
+      <li><i>touch README.md</i></li>
+    </ul>
+    <img src="assets/Captura-5.PNG" />
+    <p>
+      Como verás puedes trabajar directamente desde la terminal externa al
+      editor o abrimos la carpeta que contiene el mismo nombre del repositorio
+      desde VSCode, en nuestro caso <i>first-project</i> y luego ingresa al
+      archivo README.md. Abrimos la terminal, si estas en windows presiona
+      <i>ctrl</i> + ñ e inicializamos nuevamente los comando de <i>git</i>.
+    </p>
+
+    <ul>
+      <li><i>git add .</i></li>
+      <li><i>git branch gh-pages</i></li>
+      <li><i>git checkout gh-pages</i></li>
+    </ul>
+    <p>
+      Ahora volvemos al repositorio en github y copiamos la direccion del
+      <i>git remote</i> y lopegamos en la terminal
+    </p>
+    <img src="assets/Captura-6.PNG" />
+    <img src="assets/Captura-7.PNG" />
+    <ul>
+      <li><i>git push -u origin gh-pages </i></li>
+    </ul>
+    <img src="assets/Captura-8.PNG" />
+
+    <p>
+      Ahora recarga la pág donde vienes trabajando el repositorio y deberia
+      aparecerte así
+    </p>
+    <img src="assets/Captura-9.PNG" />
+    <h3>Ok continuemos</h3>
+    <p>
+      Dirigite en donde esta la carpeta de tu proyecto, lo que haremos es copiar
+      y pegarlo a la carpeta que tiene el nombre del repositorio, en nuestro
+      caso <i>first-project</i> Observa la imagen xd
+    </p>
+    <img src="assets/Captura-10.PNG" />
+    <p>VSC detecta los cambios que se an generado</p>
+    <img src="assets/Captura-11.PNG" />
+    <p>
+      Mu bien, si has llegado hasta aquí lo unico que debes hacer es poner la
+      url de tu proyecto en el archivo README.md respetando la sintaxis en este
+      mismo ejemplo sería así, recuerda respetar TU NOMBRE DE USUARIO
+      <a href="https://javier-er.github.io/first-project/portfolio-cv"
+        >https://javier-er.github.io/first-project/portfolio-cv</a
+      >
+    </p>
+    <img src="assets/Captura-12.PNG" />
+  </body>
+</html>
