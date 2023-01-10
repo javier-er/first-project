@@ -32,17 +32,19 @@ img {
 h1,
 h2,
 h3 {
+  text-align: center;
   margin: 0;
   font-size: 2rem;
   color: var(--first-color);
 }
+.first-carpeta {
+  text-align: center;
+}
 p {
+  text-align: center;
   color: var(--my-color);
 }
 
 i {
   color: yellow;
-}
-ul {
-  color: #e7562e;
 }
